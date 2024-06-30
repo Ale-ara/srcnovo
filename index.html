@@ -1,0 +1,287 @@
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>[SRC] - NOVIDADES!</title>
+    <link
+      rel="icon"
+      href="https://www.habbo.com.br/habbo-imaging/badge/b09064s43084s50134eda71d18c813ca341e7e285475586bf5.gif"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <meta name="viewport" content="width=device-width, initial-scales=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+ 
+      <style>
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+        html {
+            height: 100%;
+            background: linear-gradient(90deg, #07325A, #0e64b5);
+            background-size: 200% 200%;
+            background-attachment: fixed;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: "Poppins", sans-serif;
+            overflow-y: auto;
+            background: transparent;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.5s ease-in-out;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #005dad;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .promo-item, .project-item {
+            background-color: #e7e7e7;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .promo-item img, .project-item img {
+            margin-right: 10px;
+        }
+
+        .promo-item b, .project-item b {
+            color: #005dad;
+        }
+
+        .logo {
+  width: auto; /* Utiliza o tamanho original da imagem */
+  max-width: 100%; /* Garante que não ultrapasse o tamanho original */
+  height: auto;
+  margin: 40px auto; /* Margem de 40px nas laterais e superior/inferior automático */
+  position: relative;
+  z-index: 0;
+  margin-top: 20px; /* Ajusta a margem superior para descer mais um pouco */
+}
+
+        .credits {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #bf74c7;
+  font-size: 14px;
+  color: #ffffffc8;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
+
+.credits p strong {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.credits i {
+  margin-right: 8px;
+}
+
+.credits .line-break {
+  display: block;
+  margin-top: -10px;
+}
+
+.credits.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07325A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e64b5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0e64b5;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #07325A, #0e64b5;
+}
+
+#loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #0e64b5;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    /* Esconder a tela de carregamento */
+    #loading-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    /* Animação para o texto "Carregando..." */
+    @keyframes fadeInOut {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+
+    /* Aplicar a animação ao texto */
+    #loading-screen span {
+      animation: fadeInOut 1s infinite;
+    }
+
+    /* Animação para o conteúdo */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <div id="loading-screen">#SRC</div>
+
+    <div class="container">
+        <img class="logo" src="https://i.imgur.com/LagCvRa.gif" alt="Habbo Logo">
+
+        <div class="section">
+            <h1>Novidades da Semana</h1>
+            <p>Período de abrangência: 21 Jun 2024 até 27 Jun 2024</p>
+        </div>
+
+        <div class="section">
+            <h2>Projetos Aprovados</h2>
+            <div class="project-item">
+                <li><b>Ordem 156:</b>  Qox - [INS] Inscrições Setoriais - Automatizada
+            </div>
+
+            <div class="section">
+                <h2>Alterações/Correções</h2>
+            <div class="project-item">
+              
+                <ul>
+                    <li><b>Ordem 157:</b> Zeyn. - Alteração - Slide de Capacitação Básica /,Conca.Hack - Remoção da central de avaliações</li>
+                    <li><b>Ordem 158:</b> -SrYoki - Correção do script de CFC II</li>
+                    <li><b>Ordem 159:</b> Correção na MP de Promoção do Annehatfield1 - cargo de Avaliador</li>
+                    <li><b>Ordem 160:</b> Correção na MP de Promoção do cargo de Monitor</li>
+                    <li><b>Ordem 161:</b> Correção na MP de Promoção do cargo de Capacitador</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Promoções</h2>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=isabellaju97&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="isabellaju97">
+                <b>isabellaju97</b> - Avaliador > Capacitador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=GrimoryRP&direction=2&head_direction=3&size=m&gesture
+                =sml&action=wlk,wav" alt="GrimoryRP">
+                <b>GrimoryRP</b> - Avaliador > Capacitador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=Hope.&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="Hope.">
+                <b>Hope.</b> - Graduador > Avaliador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=Evange&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="Evange">
+                <b>Evange</b> - Graduador > Avaliador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=Sr-Fabio&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="Sr-Fabio">
+                <b>Sr-Fabio</b> - Instrutor > Graduador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=Betrayed&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="Betrayed">
+                <b>Betrayed</b> - Instrutor > Graduador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=.:Calvin:.&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt=".:Calvin:.">
+                <b>.:Calvin:.</b> - Instrutor > Graduador
+            </div>
+            <div class="promo-item">
+                <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?img_format=png&user=-SrYoki&direction=2&head_direction=3&size=m&gesture=sml&action=wlk,wav" alt="-SrYoki">
+                <b>-SrYoki</b> - Instrutor > Graduador
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<script>
+    window.addEventListener('load', function() {
+      const loadingScreen = document.getElementById('loading-screen');
+      
+      // Adiciona um atraso antes de remover a tela de carregamento
+      setTimeout(() => {
+        loadingScreen.classList.add('hidden');
+      }, 2000); // 2000 milissegundos = 2 segundos de atraso
+    });
+  </script>
+
+</html>
